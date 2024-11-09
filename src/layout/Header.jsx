@@ -35,6 +35,7 @@ const StyleHeader = styled.div`
   display: flex;
   justify-content: space-between;
   padding: 25px;
+  gap: 15px;
 
   gap: 10px;
   & > img {
@@ -54,7 +55,7 @@ const StyleDiv = styled.div`
     color: #15155a;
     font-size: 20px;
     cursor: pointer;
-    
+
     &:hover {
       background-color: #95b793;
       width: auto;
