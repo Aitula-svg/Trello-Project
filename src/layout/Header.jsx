@@ -50,7 +50,7 @@ const StyleDiv = styled.div`
   justify-content: space-between;
   gap: 40px;
   align-items: center;
-  margin-right: 20px;
+
   & > h2 {
     color: #15155a;
     font-size: 20px;
