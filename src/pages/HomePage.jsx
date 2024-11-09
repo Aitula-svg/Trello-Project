@@ -14,7 +14,7 @@ const StyleDiv = styled.div`
   margin-left: 30px;
   margin-top: 30px;
   display: flex;
-  gap: 20px;
+  gap: 14px;
 
   flex-wrap: nowrap;
   overflow-x: scroll;
