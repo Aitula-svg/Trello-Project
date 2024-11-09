@@ -52,8 +52,9 @@ const StyleDiv = styled.div`
   margin-right: 20px;
   & > h2 {
     color: #15155a;
-    font-size: 23px;
+    font-size: 20px;
     cursor: pointer;
+    
     &:hover {
       background-color: #95b793;
       width: auto;
