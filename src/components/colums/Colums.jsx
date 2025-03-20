@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 import { CiViewList } from "react-icons/ci";
 import { TodoList } from "../Todos/TodoList";
@@ -10,7 +10,6 @@ import { TiPlus } from "react-icons/ti";
 import { addCards, deleteColumns } from "../../redux/slices/columsSlice";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
-import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
 
 const Colums = ({ title, cards, id }) => {

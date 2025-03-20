@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import styled from "styled-components";
 import { AiOutlineEdit } from "react-icons/ai";
 import { useDispatch } from "react-redux";
@@ -7,6 +7,7 @@ import { EditCards } from "../../redux/slices/columsSlice";
 export const TodoItem = ({ id, title, columnId }) => {
   const [isEdit, setIsEdit] = useState(false);
   const [editValue, setEditValue] = useState(title);
+  
   const dispatch = useDispatch();
 
   const handleEdit = () => {

@@ -1,12 +1,5 @@
-import React from 'react'
-import Login from './Auth/Login'
-
 const App = () => {
-  return (
-    <div>
-      {/* <Login /> */}
-    </div>
-  )
-}
+  return <div></div>;
+};
 
-export default App
+export default App;
